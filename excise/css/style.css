@@ -1,0 +1,462 @@
+/*=======
+基本页面样式
+========*/
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+body {
+	margin:0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	color:#bec0c3;
+}
+
+::selection {
+	background-color: #b3d4fc;
+	text-shadow: none;
+}
+
+ul {
+	margin:0;
+	padding: 0;
+	
+}
+
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+
+}
+
+
+/*====
+清除浮动
+=====*/
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+	
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+
+
+
+/*=======
+页头页面
+=========*/
+.header_logo {
+	float: left;
+	line-height: 2rem;
+	position: relative;
+}
+.header_img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.header_title {
+	display: inline-block;
+	padding-left: 10rem;
+
+}
+
+.header_ul {
+	text-align: right;
+	line-height: 4.9rem;
+}
+
+.header_ul li {
+	text-align: center;
+	display: inline-block;
+	font-size: 1.4rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	
+}
+
+.header_ul_li_a_active:hover {
+	color: red;
+	box-shadow:0 -3px 0 0 #e7504d inset
+	
+}
+
+
+.header_ul .login {
+	background: url("../img/login.png") no-repeat center left;
+	padding-right: 6.5rem;
+	padding-left: 1.5rem;
+
+}
+.header_ul .login a {
+	color: red;
+}
+
+
+/*==
+banner
+===*/
+.banner {
+	background: url("../img/banner1.png") no-repeat;
+	background-size: cover;
+	height: 80rem;
+	position: relative;
+}
+.banner div {
+	position: absolute;
+	top: 50%;
+	transform:translate(20%,-50%);
+
+
+}
+.banner p:first-child {
+	font-size: 6rem;
+	color: #ffffff;
+}
+.banner p:nth-of-type(2) {
+	margin-top: 2.5rem;
+	margin-bottom: 5.8rem;
+	font-size: 2rem;
+	color: #fffdfd;
+}
+
+.banner button {
+	color: #ffffff;
+	border: 1px	solid #e74f4d;
+	background-color: #e74f4d;
+	width: 25rem;
+	line-height: 5rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
+
+
+
+/*====
+小提示部分
+=====*/
+section .ad {
+	float: left;
+	width: calc(100%/4)
+}
+
+
+section .ad p {
+	margin-top: 3rem;
+	line-height: 1.5rem;
+}
+.sumad {
+	text-align: center;
+	margin-top:4rem;
+	margin-bottom: 6rem;
+	
+}
+
+
+/*=====
+关于新世界部分，你不知道的部分
+=====*/
+.xinshijie {
+	background-color: #ededec;
+	height: 34rem;
+	text-align: center;
+}
+.xinshijie p {
+	font-size: 5.5rem;
+}
+
+
+.xinshijie img {
+	padding-top: 8rem;
+	padding-bottom: 5rem;
+}
+
+/*=====
+新世界查找部分
+=====*/
+
+.inf {
+	background:url(../img/inf_bg.png) no-repeat;
+	background-size: cover;
+	height: 31rem;
+	text-align: center;
+	background-clip:border-box
+
+
+}
+.inf .p1 {
+	font-size: 2.1rem;
+	color: white;
+	padding-top: 5rem
+}
+.inf .p2 {
+	font-size: 1.2rem;
+	color: #ffffff;
+	padding-top: 3rem;
+	padding-bottom: 5rem;
+	
+}
+select {
+	color:#787879;
+	appearance:none
+	
+}
+a .option {
+	display: block;
+}
+.option {
+	width: 20rem;
+	
+}
+
+/*======
+pic页面
+=======*/
+.pic {
+	background-color: #f7f7f7;
+	height: 50rem;
+	padding-top: 9rem;
+}
+
+.pic_container {
+	float: left;
+	width: calc(100%/4)
+	/*margin-top: 9rem;*/
+	
+}
+
+.pic .pic_container {
+	text-align: center;
+}
+/*======
+show页面
+=======*/
+.show_pic {
+	background:url(../img/people.png) no-repeat;
+	height: 565px;
+	text-align: center;
+	width: 66%;
+	background-size: cover;
+	float: left;
+}
+
+.show .show_pic p:nth-of-type(1){
+	font-size: 4.9rem;
+	color: white;	
+	padding-top: 12.9rem;
+} 
+.show .show_pic p:nth-of-type(2){
+	font-size: 15.7rem;	
+	color: white;	
+} 
+.show .show_pic p:nth-of-type(3){
+	font-size: 2.1rem;
+	color: white;	
+} 
+.show .show_pic p:nth-of-type(4){
+	font-size: 2.1rem;
+	color: white;	
+} 
+.show_word {
+	text-align: center;
+}
+
+.show_word h3 {
+	color: black;
+	font-size: 2rem;
+}
+.show_word h3 span {
+	color: red;	
+}
+
+.show_word p {
+	font-size: 1rem;
+	line-height: 3rem;	
+}
+
+.show_word div>span {
+	display: inline-block;
+	border: 1px	solid black;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+}
+.show_word h3 {
+	padding-top: 15rem;
+	margin-bottom: 2rem;
+}
+
+.show_word p {
+	margin-bottom: 2rem;
+	padding-left: calc(66% + 4%);
+	padding-right: 4%;
+}
+.show_word .more {
+	margin-bottom: 3rem;
+}
+.show_word .more a {
+	border: 1px	solid red;
+	padding: 0.12rem 2.4rem;
+	font-size: 2rem;
+	color: red;	
+
+}
+/*====
+邀请加入页面
+=====*/
+
+.join {
+	text-align: center;
+	/*margin-top: 10rem;*/
+	margin:10rem auto 10rem;
+
+
+}
+.join h3 {
+	font-size: 2rem;
+
+}
+.join p {
+	font-size: 1rem;
+	margin-top: 2rem;
+	line-height: 1.5rem;
+	
+}
+
+/*====
+联系方式：协议页面
+=====*/
+
+.agreement_para {
+	padding-left: 8%;
+	width: 40%;
+	float: left;
+}
+.agreement_para h4 {
+	font-size: 1.1rem;
+	margin-bottom: 2.4rem;
+}
+
+.agreement_para p {
+	font-size: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+.agreement_para_li {
+	margin-top: 5.5rem;
+	position: relative;
+}
+.agreement_para div:first-child {
+	margin-top: 0;
+}
+
+
+
+.agreement_para_li_more {
+	position: absolute;
+	bottom: -20px;
+	right: 10px;
+}
+
+
+/*====
+联系方式：联系页面
+=====*/
+.contact {
+	text-align: right;
+	margin-left: 45%;
+}
+.contact div input ,
+.contact div textarea ,
+.contact button {
+	background-color:#ededee;
+	width:25rem;
+	height: 3rem;
+	color:black;
+	text-align: left;
+	float: left;
+	margin-right: 1rem;
+	margin-top: 1rem;
+	line-height: 3rem;
+	padding-left: 1rem;
+	border: 0;
+}
+.contact div textarea {
+	width: 51rem;
+	height: 9rem;
+}
+
+
+.contact button {
+	margin-top: 2rem;
+	width: 51rem;
+}
+
+/*=======
+页脚
+========*/
+footer {
+	margin-top: 14rem;
+	background-color: #32353e;
+	height: 30rem;
+	position: relative;
+	background-size: contain;
+}
+
+
+.footer	{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50% ,-50%);
+	width: 50rem;
+	text-align: center;
+	line-height: 2.4rem;
+	font-size: 1rem;
+	color: #e0e1e1;
+
+}
+
+.footer p:first-child {
+	font-size: 2rem;
+	line-height: 2rem
+}
+
+.footer p:nth-of-type(2) {
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+.footer form button {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	background-color: #6f7278;
+	color:#ffffff;
+	width: 10rem;
+	height: 3rem;
+	border: 0;
+}
+
+.footer form input {
+	width: 300px;
+	height: 3rem;
+	border: 0;
+}
+
+
+
+
+
