@@ -32,6 +32,7 @@ li {
 }
 a {
 	text-decoration: none;
+/*	color: #bec0c3;*/
 
 }
 
@@ -88,11 +89,13 @@ a {
 }
 
 .header_ul_li_a_active:hover {
-	color: red;
+	
 	box-shadow:0 -3px 0 0 #e7504d inset
 	
 }
-
+.header_ul_li_a_active a:hover {
+	color: red;
+}
 
 .header_ul .login {
 	background: url("../img/login.png") no-repeat center left;
@@ -109,7 +112,7 @@ a {
 banner
 ===*/
 .banner {
-	background: url("../img/banner1.png") no-repeat;
+	background: url("../img/banner.png") no-repeat;
 	background-size: cover;
 	height: 80rem;
 	position: relative;
@@ -312,6 +315,11 @@ show页面
 	font-size: 2rem;
 	color: red;	
 
+}
+
+.show_word span:first-child {
+	background-color: #929293;
+	border: 0;
 }
 /*====
 邀请加入页面
