@@ -316,8 +316,10 @@ show页面
 	color: red;	
 
 }
-
-.show_word span:first-child {
+.show_word  div span {
+	border: 1px	solid #929293;
+}
+.show_word  div span:first-child {
 	background-color: #929293;
 	border: 0;
 }
