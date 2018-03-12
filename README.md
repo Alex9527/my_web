@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## 欢迎来的我的小作品集
+以下是关于几个小作品集的简要介绍。
 
-You can use the [editor on GitHub](https://github.com/Alex9527/my_web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### 首页面
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+本页面较为简单，仅仅用flex弹性盒子尝试做了一些响应式简单布局。
 
-### Markdown
+###网站页面
+本页面较首页更为复杂，主要实现了常见网页的静态布局，暂时尚未添加一些用户交互行为。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 翻牌游戏
+玩法：点击卡牌翻面，如果不一致则卡牌盖上，如果一致，则卡牌均打开。
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Alex9527/my_web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 过河游戏
+玩法：用上下左右4个键操控人物，躲避甲虫，到达和对岸
+注意：本例中，动画的渲染引擎及图片加载不是我写的，我这边主要编写了app.js中的内容。

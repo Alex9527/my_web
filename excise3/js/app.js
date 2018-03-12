@@ -80,7 +80,7 @@ let allEnemies =[new Enemy(60,random(100,300)),new Enemy(140,random(100,300)),ne
 
 let player = new Player();
 
- 
+ //键盘定义，非本人编写
 document.addEventListener('keyup', function(e) {
     var allowedKeys = {
         37: 'left',
